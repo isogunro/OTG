@@ -1,0 +1,41 @@
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+<body>
+    <table border="1" width="50%">
+        <tr>
+            <td colspan="5">New</td>
+        </tr>
+        <tr>
+            <td>Service</td>
+            <td><input type="text" id="service" /></td>
+        </tr>
+        <tr>
+            <td>Permanent</td>
+            <td><input type="text" id="permanent" /></td>
+        </tr>
+        <tr>
+            <td>Itinerant</td>
+            <td><input type="text" id="itinerant" /></td>
+        </tr>
+        <tr>
+            <td>Region</td>
+            <td>
+                <select id="region">
+                    <option value="Asia">Asia</option>
+                    <option value="Central">Central</option>
+                    <option value="Eastern">Eastern</option>
+                    <option value="Southern">Southern</option>
+                    <option value="Western">Western</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button name="submit" onclick="updateForm()" type="button" id="btn">Submit</button></td>
+        </tr>
+    </table>
+
+</body>
+<script type="text/javascript"
+    src="https://isogunro.sharepoint.com/sites/demos/mdemos/webpart/vanillaRestApi/editFormRestAPI.js"></script>

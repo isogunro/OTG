@@ -1,0 +1,48 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+<style>
+    #thanks {
+        display: none
+    }
+</style>
+<table border="1" width="50%">
+    <tr>
+        <td colspan="5">New</td>
+    </tr>
+    <tr>
+        <td>Service</td>
+        <td><input type="text" id="service" /></td>
+    </tr>
+    <tr>
+        <td>Permanent</td>
+        <td><input type="text" id="permanent" /></td>
+    </tr>
+    <tr>
+        <td>Itinerant</td>
+        <td><input type="text" id="itinerant" /></td>
+    </tr>
+    <tr>
+        <td>Region</td>
+        <td>
+            <select id="region">
+                <option value="Asia">Asia</option>
+                <option value="Central">Central</option>
+                <option value="Eastern">Eastern</option>
+                <option value="Southern">Southern</option>
+                <option value="Western">Western</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><button name="submit" type="button" id="btn">Submit</button></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="thanks">Thank you for your submission</div>
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript"
+    src="https://isogunro.sharepoint.com/sites/demos/mdemos/webpart/vanillaRestApi/vanillaRestApi.js"></script>
