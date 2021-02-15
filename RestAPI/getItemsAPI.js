@@ -1,3 +1,8 @@
+/***********************************
+ * REST API - READ 
+ * Create table using insertRow(), insertCell()
+ * 
+ */
 window.addEventListener('DOMContentLoaded', function (event) {
     getListItems()
 })

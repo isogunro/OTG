@@ -1,3 +1,8 @@
+/***********************************
+ * REST API - READ & display in a table
+ * 
+ * 
+ */
 window.addEventListener('DOMContentLoaded', function (event) {
     getListItems()
 })

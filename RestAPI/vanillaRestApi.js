@@ -1,3 +1,8 @@
+/***********************************
+ * REST API - INSERT item into SharePoint
+ * 
+ * 
+ */
 window.addEventListener('DOMContentLoaded', function (event) {
     //Add eventlistener
     var btn = getEl("btn")
